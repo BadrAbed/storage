@@ -1,0 +1,93 @@
+
+ body
+    {
+      background: #e0e0e0;
+      background-size: 70%;
+      height: 200px;
+    }
+
+ div#topdiv
+   {
+    position: fixed;
+    top :0px;
+    left:0px;
+    height:20%;
+    width:100%;
+    color: #ccc;
+    padding: 8px;
+    background:#2A99CC;
+    }
+
+ div#bottomdiv
+    {
+     position: fixed;
+     bottom:0px;
+     left:0px;
+     width:100%;
+     color: #ccc;
+     background:#2A99CC;
+     padding: 12px;
+    }
+
+ .menu
+    {
+     position: fixed;
+     font :1em Georgia;
+     list-style:none;
+     padding: 0;
+     margin: 0;
+     background: white;
+     border-bottom: 3px solid #000;
+    }
+
+ .menu li
+                {
+                    display: inline-block; //
+                    zoom:1;
+                    *display: inline;
+                    padding: 5px 15px 4px 15px;
+                }
+
+.menu li a
+                {
+                    color:#000;
+                    text-decoration: none;
+                    line-height: 1.6em;
+                }
+
+ .menu li.selected
+                {
+                    background: orange;
+                }
+
+  div#centerdiv
+                {
+                    position : fixed;
+                    right : 40%;
+                    left : 40%;
+                    top: 40%;
+                    bottom: 40%;
+                    width: 20%;
+                    height: 20%;
+                    display: block;
+                    font-style: bold ;
+                    color: black;
+                    background:  #2A99CC;
+                    border: groove ;
+                }
+ div#blockdiv
+                {
+                    position: fixed;
+                    display: block;
+                    right: 10%;
+                    left: 10%;
+                    top : 25%;
+                    bottom: 15%;
+                    height:   60%;
+                    width:  80%;
+                    color: black;
+                    overflow : auto;
+                    border: groove ;
+                    background : #9AE1E4  ;
+                }
+
